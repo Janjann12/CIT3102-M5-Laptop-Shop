@@ -82,34 +82,45 @@ IT3E
 
 * Bruno Testing Screenshots
 
+- Register
 
-- Register ![Project Screenshot](images/image1.png)  
-    
-- Login![][image2]  
-    
-- Get Equipment \- No Token  
-  ![][image3]  
-    
-- Get Equipment \- With TOken  
-  ![][image4]
+  ![Register](images/image1.png)
 
-- Create Equipment \- No Missing Field  
-  ![][image5]  
-    
-- Create Equipment \- WIth Missing Field  
-  ![][image6]  
-    
-- Get Record \- Existing Record  
-  ![][image7]  
-    
-- Get Record \- Not Existing  
-  ![][image8]  
-    
-- Update Record  
-  ![][image9]  
-    
-- Delete Record  
-  ![][image10]
+- Login
+
+  ![Login](images/image2.png)
+
+- Get Equipment - No Token
+
+  ![Get Equipment - No Token](images/image3.png)
+
+- Get Equipment - With Token
+
+  ![Get Equipment - With Token](images/image4.png)
+
+- Create Equipment - No Missing Field
+
+  ![Create Equipment - No Missing Field](images/image5.png)
+
+- Create Equipment - With Missing Field
+
+  ![Create Equipment - With Missing Field](images/image6.png)
+
+- Get Record - Existing Record
+
+  ![Get Record - Existing Record](images/image7.png)
+
+- Get Record - Not Existing
+
+  ![Get Record - Not Existing](images/image8.png)
+
+- Update Record
+
+  ![Update Record](images/image9.png)
+
+- Delete Record
+
+  ![Delete Record](images/image10.png)
 
 
 ---
