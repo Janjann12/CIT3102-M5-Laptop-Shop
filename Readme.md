@@ -9,58 +9,72 @@ IT3E
 - Equipment API
 
 ---
+## Installation Setup
 
-* Installation Setup
+### Step 1: Clone the Repository
 
-	**Step 1: Clone the Repository**
+Clone the repository and navigate to the project folder.
 
-- https\://github.com/Janjann12/MidtermActEquipment-api.git  
-- cd MidtermActEquipment-api
+```bash
+git clone https://github.com/Janjann12/MidtermActEquipment-api.git
+cd MidtermActEquipment-api
+```
 
+### Step 2: Install Dependencies
 
-	**Step 2: Install Dependencies**	
+Install the required PHP packages.
 
-	Install the required PHP packages.
+```bash
+composer install
+```
 
-- Composer install
+### Step 3: Configure the Environment
 
+Create a local `.env` file from the example configuration using Windows PowerShell.
 
-	**Step 3: Configure the Environment**
+```powershell
+Copy-Item .env.example .env
+```
 
-	Create a local .env file from existing example configuration in window   powershell:
+Generate the Laravel application key.
 
-- Copy-Item .env.example .env
+```powershell
+php artisan key:generate
+```
 
+### Step 4: Configure the SQLite Database
 
-	Generate the Laravel application key:
+If the SQLite database file does not exist, create it using Windows PowerShell.
 
-- Php artisan key:generate
+```powershell
+New-Item database/database.sqlite -ItemType File
+```
 
-	**Step 4: Configure the SQLite Database**  
-	  
-	Make sure the SQLite database does not exist. Run this in PowerShell if it does not exist:
+In the `.env` file, configure the database connection.
 
-- New-Item database/database.sqlite \-ItemType File
+```env
+DB_CONNECTION=sqlite
+```
 
+### Step 5: Run Migrations
 
-	Configure the database connection in the .env file:
+Create the database tables required by the application.
 
-- DB\_CONNECTION=sqlite
+```bash
+php artisan migrate
+```
 
+### Step 6: Start the API
 
-	**Step 5: Run Migrations**  
-	  
-	Create the database tables required:
+Start the Laravel development server. Keep the terminal open while testing the API.
 
-- php artisan migrate
+```bash
+php artisan serve
+```
 
+The API will be available at:
 
-	**Step 6: Start API**
-
-	Start the Laravel Server, keep the server open while you test the APIs  
-	The API will be available at [http\://127.0.0.1:8000](http://127.0.0.1:8000):
-
-- Php artisan serve
+**http://127.0.0.1:8000**
 
 ---
 
