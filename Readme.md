@@ -1,12 +1,14 @@
 Build Your Own API  
 **CIT-3102 : System Integration and Architecture**
 
-| De Leon, Jean Paul P. | Prof. Kury Carvey Cadena |
-| :---- | :---- |
-| October 15, 2026  | IT3E |
+**De Leon, Jean Paul P.**  
+IT3E  
+---
 
 * Project Title  
 - Equipment API
+
+---
 
 * Installation Setup
 
@@ -60,6 +62,8 @@ Build Your Own API
 
 - Php artisan serve
 
+---
+
 * API Routes
 
 | VERB | PATH | DESCRIPTION | TOKEN  |
@@ -73,6 +77,8 @@ Build Your Own API
 | GET | /api/equipment/{id} | Retrieve a record by ID | YES |
 | PUT | /api/equipment/{id} | Update a record by ID | YES |
 | DELETE | /api/equipment/{id} | Delete a record by ID | YES |
+
+---
 
 * Bruno Testing Screenshots
 
@@ -106,7 +112,7 @@ Build Your Own API
   ![][image10]
 
 
-  
+---
 
 * Why Deleting a Record Returns 204 and not 200  
     
