@@ -83,7 +83,7 @@ IT3E
 * Bruno Testing Screenshots
 
 
-- Register ![][image1]  
+- Register ![Project Screenshot](images/image1.png)  
     
 - Login![][image2]  
     
