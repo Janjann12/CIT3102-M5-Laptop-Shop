@@ -16,7 +16,7 @@ IT3E
 Clone the repository and navigate to the project folder.
 
 ```bash
-git clone https://github.com/Janjann12/MidtermActEquipment-api.git
+git clone https://github.com/Janjann12/CIT3102-M5-Laptop-Shop.git
 cd MidtermActEquipment-api
 ```
 
